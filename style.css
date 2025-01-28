@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+/*** header ***/
+header {height: 80px; padding: 0 3%; border-bottom: 1px solid #ddd; margin-bottom: 30px;}
+header nav {position: relative; display: flex; justify-content: space-between; align-items: center; height: 100%;}
+header nav .menu_btn {display: block; width: 30px;}
+header nav .menu_btn > img {width: 100%;}
+
+header nav > h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px;}
+
+header nav .option {display: flex; align-items: center;}
+header nav .option > img {width: 30px; margin-right: 5px; cursor: pointer;}
+header nav .option > img:last-child {margin-right: 0;}
+/*** header ***/
+
+/*** main ***/
+main {display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 5px; margin-bottom: 30px;}
+.board-row {display: flex; justify-content: center; align-items: center; gap: 5px;}
+.board-block {display: flex; justify-content: center; border: 1px solid #ddd; align-items: center; width: 60px; height: 60px;}
+/*** main ***/
+
+/*** footer ***/
+footer {display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px;}
+.keyboard-row {display: flex; align-items: center; justify-content: center; gap: 5px;}
+.keyboard-column {width: 62px; height: 62px; background-color: #ddd; padding: 10px; box-sizing: border-box;}
+.keyboard-column.wide {width: 80px;}
+.keyboard-column.wide img {width: 30px;}
+/*** footer ***/
