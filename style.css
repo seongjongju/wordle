@@ -16,13 +16,13 @@ header nav .option > img:last-child {margin-right: 0;}
 /*** main ***/
 main {display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 5px; margin-bottom: 30px;}
 .board-row {display: flex; justify-content: center; align-items: center; gap: 5px;}
-.board-block {display: flex; justify-content: center; border: 1px solid #ddd; align-items: center; width: 60px; height: 60px;}
+.board-column {display: flex; justify-content: center; border: 1px solid #ddd; align-items: center; width: 60px; height: 60px; font-size: 30px; font-weight: bold; text-align: center; line-height: 60px; text-transform: uppercase;}
 /*** main ***/
 
 /*** footer ***/
 footer {display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px;}
 .keyboard-row {display: flex; align-items: center; justify-content: center; gap: 5px;}
-.keyboard-column {width: 62px; height: 62px; background-color: #ddd; padding: 10px; box-sizing: border-box;}
+.keyboard-column {width: 62px; height: 62px; background-color: #ddd; padding: 10px; box-sizing: border-box; font-size: 20px; font-weight: bold;}
 .keyboard-column.wide {width: 80px;}
 .keyboard-column.wide img {width: 30px;}
 /*** footer ***/
